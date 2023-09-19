@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://th.bing.com/th/id/R.7f4c79874dcefde3cae7eaa2bbcabf73?rik=63aqaykNHRCQ5g&riu=http%3a%2f%2fwww.semesteratsea.org%2fwp-content%2fuploads%2f2016%2f10%2fYangon_Myanmar_004.jpg&ehk=p4mt%2bEPpYLJ%2bcU%2bypfMk5UiY5rYfFs854uPih3fcCms%3d&risl=&pid=ImgRaw&r=0);
+    background-attachment: fixed;
+
+}
+h1{
+    font-weight: 700;
+    font-size: 5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+    padding: 1.7rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+p{
+    max-width: 600px;
+    line-height: 1.5;
+    position: 0.8rem;
+    font-size: 10px;
+
+}
+.cont a{
+    display: inline-block;
+    background-color: #000;
+    color : #fff;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
